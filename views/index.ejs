@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+
+
+</head>
+
+<body>
+    <main>
+        <h2>Data from site https://prefeitura.pbh.gov.br/saude/licitacao/pregao-eletronico-151-2020</h2>
+
+        <section class="dreams">
+            <p><%= data.PublicationDate %></p>
+
+            <p> <%= data.BiddingDate %></p>
+            <p> <%= data.Object %></p>
+            <% var x = JSON.stringify(data.links) %>
+            <%  var links = x.replace(/,/g,  " \n "); %>
+
+            <p><%= links %> </p>
+
+
+
+        </section>
+    </main>
+</body>
+
+</html>
