@@ -5,16 +5,18 @@
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-Installation
+# Installation
 
 $ git clone https://github.com/raksharaikar/scraping-nodejs.git
+
 $ cd PROJECT
+
 To install and set up the library, run:
 
 $ npm install -S myLib
 
 
-Usage
+# Usage
 
 Serving the app
 
