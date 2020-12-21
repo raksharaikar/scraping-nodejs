@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Installation
 
-$ git clone https://github.com/ORG/PROJECT.git
+$ git clone https://github.com/raksharaikar/scraping-nodejs.git
 $ cd PROJECT
 To install and set up the library, run:
 
